@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 123, 0);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+h1,
+h3,
+p,
+strong {
+  color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ff0000;
+  position: fixed;
+  width: 100%;
+  z-index: 15;
+  top: 0;
+  left: 0;
+}
+#home-image {
+  margin-top: 50px;
+  text-align: center;
+}
+#about {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  background-color: #ff0000;
+  flex-wrap: wrap;
+  border: 10px black hidden;
+  border-radius: 15px;
+  width: 70%;
+  margin-bottom: 75px;
+}
+.about-text {
+  padding: 0px 25px;
+  display: flex;
+  border-bottom: 2px solid #ffd900;
+  margin: 0;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: #ff0000;
+}
+.about-text h1 {
+  text-align: center;
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.profile {
+  display: flex;
+  border-right: 2px solid #ff0000;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  flex-direction: column;
+  background-color: #ff0000;
+}
+.skills {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #ff0000;
+}
+.skills h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+.about {
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 60%;
+  background-color: #ff0000;
+}
+.skill-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  background-color: #ff0000;
+}
+#hobbies {
+  margin: 0 auto 100px auto;
+}
+#hobbies h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.hobbies-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.hobbies-items {
+  box-sizing: border-box;
+  width: 25%;
+  text-align: center;
+  background-color: #ff0000;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 3px black hidden;
+  border-radius: 15px;
+}
+#projects {
+  background-image: url("auyyyy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+  position: relative;
+  text-align: center;
+  height: 250px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#projects h1 {
+  text-align: center;
+  margin-top: 0;
+  text-decoration: underline;
+}
+#contact {
+  display: flex;
+  background-color: #ff0000;
+  margin: 100px auto 75px auto;
+  width: 65%;
+  border: 10px black hidden;
+  border-radius: 15px;
+  padding-top: 25px;
+}
+.contact-form {
+  padding-left: 40px;
+  width: 50%;
+  padding-bottom: 40px;
+}
+.form-item {
+  width: 90%;
+  box-sizing: border-box;
+  height: 35px;
+  padding: 5px;
+  margin-bottom: 25px;
+  color: black;
+}
+.mess-item {
+  width: 90%;
+  box-sizing: border-box;
+  height: 75px;
+  padding: 5px;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.contact-btn {
+  background-color: yellow;
+  height: 45px;
+  width: 40%;
+  border: hidden 3px;
+  border-radius: 20px;
+}
+.contact-mess {
+  width: 50%;
+}
+.fa,
+.fas {
+  font-weight: 900;
+}
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free";
+}
+.contact-mess span {
+  font-size: 20px;
+}
