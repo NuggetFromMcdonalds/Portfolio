@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(255, 123, 0);
+  background-color: #282d3c;
 }
 a {
   text-decoration: none;
@@ -19,7 +19,7 @@ strong {
 .header {
   display: flex;
   justify-content: space-evenly;
-  background-color: #ff0000;
+  background-color: #9b2335;
   position: fixed;
   width: 100%;
   z-index: 15;
@@ -34,7 +34,7 @@ strong {
   display: flex;
   margin: 0 auto;
   margin-bottom: 0px;
-  background-color: #ff0000;
+  background-color: #9b2335;
   flex-wrap: wrap;
   border: 10px black hidden;
   border-radius: 15px;
@@ -48,7 +48,7 @@ strong {
   margin: 0;
   padding: 16px;
   box-sizing: border-box;
-  background-color: #ff0000;
+  background-color: #9b2335;
 }
 .about-text h1 {
   text-align: center;
@@ -58,17 +58,17 @@ strong {
 
 .profile {
   display: flex;
-  border-right: 2px solid #ff0000;
+  border-right: 2px solid #9b2335;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-right: 20px;
   flex-direction: column;
-  background-color: #ff0000;
+  background-color: #9b2335;
 }
 .skills {
   box-sizing: border-box;
   width: 100%;
-  background-color: #ff0000;
+  background-color: #9b2335;
 }
 .skills h1 {
   text-align: center;
@@ -80,13 +80,13 @@ strong {
   padding-top: 25px;
   padding-bottom: 25px;
   width: 60%;
-  background-color: #ff0000;
+  background-color: #9b2335;
 }
 .skill-container {
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 20px;
-  background-color: #ff0000;
+  background-color: #9b2335;
 }
 #hobbies {
   margin: 0 auto 100px auto;
@@ -103,7 +103,7 @@ strong {
   box-sizing: border-box;
   width: 25%;
   text-align: center;
-  background-color: #ff0000;
+  background-color: #9b2335;
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
@@ -132,7 +132,7 @@ strong {
 }
 #contact {
   display: flex;
-  background-color: #ff0000;
+  background-color: #9b2335;
   margin: 100px auto 75px auto;
   width: 65%;
   border: 10px black hidden;
@@ -162,11 +162,12 @@ strong {
 }
 
 .contact-btn {
-  background-color: yellow;
+  background-color: #282d3c;
   height: 45px;
   width: 40%;
   border: hidden 3px;
   border-radius: 20px;
+  color: white;
 }
 .contact-mess {
   width: 50%;
