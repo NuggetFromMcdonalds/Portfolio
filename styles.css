@@ -66,8 +66,8 @@ strong {
   margin-bottom: 75px;
 }
 .about-text {
-  padding: 0px 25px;
   display: flex;
+  align-items: center;
   border-bottom: 2px solid #ffd900;
   margin: 0;
   padding: 16px;
